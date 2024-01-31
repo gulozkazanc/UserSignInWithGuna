@@ -16,5 +16,21 @@ namespace tasarimgunaile
         {
             InitializeComponent();
         }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            //devamı yapılacak
+            guna2TextBox1.Text = "gulozkazanc@gmail.com";
+        }
+
+        private void guna2Panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2PictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

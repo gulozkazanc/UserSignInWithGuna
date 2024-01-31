@@ -78,6 +78,7 @@ namespace tasarimgunaile
             this.guna2Panel2.Name = "guna2Panel2";
             this.guna2Panel2.Size = new System.Drawing.Size(288, 544);
             this.guna2Panel2.TabIndex = 2;
+            this.guna2Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel2_Paint);
             // 
             // guna2Button2
             // 
@@ -120,6 +121,7 @@ namespace tasarimgunaile
             this.guna2Button1.TabIndex = 4;
             this.guna2Button1.Text = "Giriş Yap";
             this.guna2Button1.UseTransparentBackground = true;
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // label2
             // 
@@ -227,6 +229,7 @@ namespace tasarimgunaile
             this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox2.TabIndex = 0;
             this.guna2PictureBox2.TabStop = false;
+            this.guna2PictureBox2.Click += new System.EventHandler(this.guna2PictureBox2_Click);
             // 
             // guna2Panel1
             // 
